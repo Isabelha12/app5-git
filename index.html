@@ -1,0 +1,287 @@
+﻿<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Batalla de Puebla</title>
+  
+    <!--grupo CSS-->
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <link rel="stylesheet" href="css/tema-app6.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- End WOWSlider.com HEAD section -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    <script type="text/javascript">
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+  </head><body onLoad="MM_preloadImages('imagenes/sustitucion2.png','imagenes/causa2.JPG','imagenes/benito1.jpg','imagenes/nacho.jpg','imagenes/conde3.jpg')">
+
+  
+   <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>BATALLA DE PUEBLA</h1> 
+    </div>
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>ESCUDO DE PUEBLA</h1>
+       <p>El 5 de mayo es una fecha muy importante para todos los mexicanos. El 5 de Mayo se conmemora el día de la Batalla de Puebla, en la cual el ejército mexicano venció al ejército francés. Cada año se celebra en México, con orgullo y pasión, esta victoria con grandes festejos.</p>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('susti1','','imagenes/sustitucion2.png',1)"><img src="imagenes/sustitucion1.gif" width="300" height="200" id="susti1"></a></p>
+     </div>
+    </div>
+    <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ORIGEN </h2>
+       <p>Se muestran el origen de este conflicto</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> LOS HEROES </h2>
+       <p>Se muestran los participantes principales de dicha batalla</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> BENEFICIOS </h2>
+       <p>Se muestra los beneficios que este conflicto consiguio</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> ANTECEDENTES </h2>
+       <p>Muestra los antecedentes mas importantes que dejo este conflicto</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> DESFILE CONMEMORATIVO EN ATLIXCO </h2>
+       <p>Muestra informacion de dicho desfile</p>
+      </a>
+     </li>
+     </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">   
+     <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Isabel Hernandez Ahuatzin</h4>
+     </div>
+    </div>
+   </div> 
+   
+   
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>¿Cual fue el origen de este conflicto?</h1>
+     </div>
+     <div data-role="content" align="center">
+ 
+         <p>La Batalla de Puebla fue una cruenta batalla librada por el ejercito mexicano, dirigido por Ignacio Zaragoza, durante el gobierno de Benito Juárez, ante una invasión del ejército francés, y la cual culminó con la retirada de las tropas francesas luego de su rendición, el 5 de mayo de 1862.</p>
+         <p>Existieron causas aparentes y causas que no lo fueron, o simplemente excusas, pero todos los aspectos mencionados fueron causas de la Batalla de Puebla; era claro que la República de México se encontraba sumida en crisis y tenía una deuda con Francia, España e Inglaterra; deuda que por la crisis, Benito Juárez, presidente de la época decidió no pagar por el momento y solicitar una tregua de 2 años para pagarla.</p>
+         <p>Esta decisión de no pagar por el momento, disgustó a los acreedores de la deuda y decidieron agruparse para invadir a la Republica de México y cobrarse sus deudas, adicionalmente, cada uno de estos 3 países tenían intereses mas allá de la deuda; tenían intereses económicos, mineros y de expansión de sus negocios, también de colonización de territorios.</p>
+         <div data-role="collapsible" data-content-theme="false">
+          <h1>IMAGEN</h1>
+          <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sust2','','imagenes/causa2.JPG',1)"><img src="imagenes/causa1.jpg" width="379" height="196" id="sust2"></a> </div>
+        </div>
+ <div data-role="main" class="ui-content" align="center">
+<div style="width:25%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" data-role="button">
+<h2>Presiona Para conoser mas</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+    <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+     <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Isabel Hernandez Ahuatzin</h4>
+     </div>
+   </div>
+   </div>
+ </div>
+  
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>PERSONAJES IMPORTANTES</h1>
+     </div>
+      <div data-role="content" align="center">
+         <div data-role="collapsible" data-content-theme="false">
+          <h1>BENITO JUAREZ</h1>
+          <div>
+          <p>presidente durante los hechos</p>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus3','','imagenes/benito1.jpg',1)"><img src="imagenes/beni1.jpg" name="sus3" width="400" height="450" id="sus3"></a> </div>
+        </div>
+           <div data-role="collapsible" data-content-theme="false">
+          <h1>IGNACIO ZARAGOZA</h1>
+          <div>
+          <p> Comandante del Ejército de la República Mexicana</p>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus4','','imagenes/nacho.jpg',1)"><img src="imagenes/nacho2.jpg" width="510" height="259" id="sus4"></a> </div>
+        </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>CHARLES FERDINAND LATRILLE</h1>
+          <div>
+          <p>Conde de Lorence , comandante del Ejército Francés.</p>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus5','','imagenes/conde3.jpg',1)"><img src="imagenes/conde2.jpg" name="sus5" width="500" height="600" id="sus5"></a> </div>
+        </div>
+        <div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.saberia.com/quienes-lucharon-en-la-batalla-del-5-de-mayo/" data-role="button">
+<h2>Presiona Para conoser mas</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+     <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Isabel Hernandez Ahuatzin</h4>
+     </div>
+  </div>
+  </div>
+</div>
+  
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>BENEFICIOS DE LA BATALLA</h1>
+      </div>
+  <div data-role="content" align="center">
+       <p> En sí, la Batalla de Puebla no trajo muchos beneficios al país, pero sí un gran beneficio al impedir el avance de las tropas francesas al mando del general Lorencez hacia la capital del país; además, demostró que aún así estando en momentos difíciles, las tropas mexicanas comandadas por el general Ignacio Zaragoza Seguin pudieron vencer al ejército más poderoso del mundo en aquel entonces. Recuerda las palabras del Gral. Zaragoza que mandó decir al presidente de aquel entonces don Pablo Benito Juárez García, "LAS ARMAS MEXICANAS SE HAN CUBIERTO DE GLORIA".</p>
+       <img src="imagenes/ejercitom.jpg" width="400">
+    <div data-role="footer" data-theme="a" data-position="fixed">
+     <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Isabel Hernandez Ahuatzin</h4>
+     </div>
+  </div>
+  </div>
+</div>
+  
+  
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>ANTECEDENTES DE LA BATALLA</h1>
+      </div>
+      <div data-role="content" align="center">
+        <p> En 1857, ocurrió la Guerra de Reforma : un conflicto armado donde los liberales afrontaron los conservadores para impedir que la nueva constitución restituya a los militares y a la Iglesia los privilegios que habían perdido con las Leyes de Reforma. Benito Juárez, gobernador de Oaxaca al momento del conflicto, representaba a los liberales y  Ignacio Comonfort, presidente de la República, representaba a los conservadores. Despues de 3 años, a principio del año 1961, los liberales ganaron la guerra y el Presidente Benito Juárez instauró su gobierno en la Ciudad de México.
+
+Pero despues de 3 años de conflicto, México está  financieramente en ruinas y tiene deudas enormes que los conservadores contrataron con banqueros europeos para  pagar la guerra. La deuda era de 80 millones de pesos; 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.</p>
+      <img src="imagenes/antecedentes.jpg" width="450">
+<div data-role="main" class="ui-content" align="center">
+<div style="width:25%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button">
+<h2>¿Quieres Saber Mas?</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+     <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Isabel Hernandez Ahuatzin</h4>
+     </div>
+  </div>
+  </div>   
+ </div>
+  
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>DESFILE CONMEMORATIVO EN ATLIXCO</h1>
+      </div>
+      <div data-role="content" align="center">
+      <p>Como cada año en Atlixco se realizó el desfile cívico militar del 4 de mayo con la participación de 23 banderas con escolta, 38 elemento del personal militar, 20 unidades móviles, 9 mil 958 directivos, docentes, administrativos y alumnos de 46 plantes educativos, 22 bandas de guerra y/o música, 40 binomios de charros, así como 446 personal de instituciones municipales.</p>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/visor1.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/visor5.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/visor8.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/visor9.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/visor.jpg" alt="" title="" id="wows1_4"/></li>
+		<li><img src="data1/images/visor3.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><img src="data1/images/visor4.jpg" alt="" title="" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/visor6.jpg" alt="http://wowslider.net/" title="" id="wows1_7"/></a></li>
+		<li><img src="data1/images/visor7.jpg" alt="" title="" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/visor1.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor5.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor8.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor9.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor3.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor4.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor6.jpg" alt=""/>8</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/visor7.jpg" alt=""/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div data-role="main" class="ui-content" align="center">
+<div style="width:25%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.sintesis.mx/2017/05/04/conmemora-atlixco-batalla-del-4-mayo-desfile/" data-role="button">
+<h2>Desfile conmemorativo 2017</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+     <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Isabel Hernandez Ahuatzin</h4>
+     </div>
+     </div>
+   </div>
+ </div>
+ 
+ 
+</div>
+</body>
+</html>
+
